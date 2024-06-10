@@ -2,9 +2,9 @@
 
 It's my first website design project, where I'm learning the basics of HTML and CSS.
 
-_Site published at_: https://ramintavil.github.io/labirintass/
+_Site published at_: https://ramintavil.github.io/eduhouse/
 
-_Design from_: https://www.pinterest.com/pin/464293042832100427/
+_Design from_: https://dribbble.com/shots/14735947--Eduhouse-Education-Management-Dashboard-Design/attachments/6437950?mode=media
 
 ### Project goals:
 
@@ -28,7 +28,7 @@ https://git-scm.com
 Would like to run this project locally? Open terminal and follow these steps:
 1. Clone the repo
 ```
-git clone https://github.com/RamintaVIL/labirintass
+git clone https://github.com/RamintaVIL/eduhouse
 ```
 2. Install NPM packages
 ```
