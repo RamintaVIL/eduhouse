@@ -9,8 +9,11 @@ _Design from_: https://dribbble.com/shots/14735947--Eduhouse-Education-Managemen
 ### Project goals:
 
 * Github pages
-* basic HTML elements/tags
-* basic inline-CSS rules
+* Icons (FontAwesome, ReactIcons)
+* CSS files
+* CSS flex
+* CSS grid
+* SVG images
 * **NO** responsive design
 
 ### If you want to open my website design, you just need to fallow the steps I've written below:
