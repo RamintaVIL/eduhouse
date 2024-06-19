@@ -5,34 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- 3rd persons / vendors -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- base -->
+    <!-- components -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- custom style for this page only -->
 </head>
 
 <body>
     <aside>
-        aside
+        <img class="logo" src="./img/logo.png" alt="Logo">
+        <nav class="main-nav">
+            <div class="nav-group">
+                <p class="nav-group-title">Main menu</p>
+                <div class="nav-list">
+                    <a class="link active" href="#">Overview</a>
+                    <a class="link" href="#">E-Book</a>
+                    <a class="link" href="#">My courses</a>
+                    <a class="link" href="#">Purchase course</a>
+                    <a class="link" href="#">Completed courses</a>
+                    <a class="link" href="#">Community</a>
+                </div>
+            </div>
+            <div class="nav-group">
+                <p class="nav-group-title">Settings</p>
+                <div class="nav-list">
+                    <a class="link" href="#">Profile</a>
+                    <a class="link" href="#">Setting</a>
+                    <a class="link" href="#">Logout</a>
+                </div>
+            </div>
+        </nav>
     </aside>
-    <main>
-        main
-    </main>
-    <!-- <main>
-            <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dicta quis voluptates culpa ab debitis ipsa sapiente ratione labore officiis. Dolor iste a ipsa unde, quam molestias excepturi alias voluptates.</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-            <p>5</p>
-            <p>6</p>
-    </main>
-    
-    <section>
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
-        <span>5</span>
-        <span>6</span>
-    </section> -->
 
+    <main>
+        <header class="main-header">
+            <form class="form">
+                <input type="text" placeholder="Search here..." value="Search here...">
+                <i class="fa fa-search"></i>
+            </form>
+            <div class="user-block">
+                <i class="fa fa-bell-o notifications">
+                    <div class="bubble"></div>
+                </i>
+                <img class="avatar" src="./img/icon-256x256.png" alt="">
+            </div>
+           
+        </header>
+
+        <section class="block course-progress">
+            <h2 class="title">COURSE IN PROGRESS</h2>
+            <a class="link" href="#">View all</a>
+            <div class="content">content</div> 
+        </section>
+        
+        <section class="block subscription">
+            <div class="content">CONTENT</div> 
+        </section>
+        
+        <section class="block block-bg popular-categories">
+            <h2 class="title">POPULAR CATEGORIES</h2>
+            <div class="content">CONTENT</div>
+        </section>
+        
+        <section style="background-color: #E6F5FA;" class="block block-bg top-mentor">
+            <h2 class="title">TOP MENTORS</h2>
+            <a class="link" href="#">View all</a>
+            <div class="content">CONTENT</div>  
+        </section>
+    </main>
 </body>
 
 </html>
