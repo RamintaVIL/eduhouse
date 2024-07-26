@@ -8,10 +8,13 @@
     <!-- 3rd persons / vendors -->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <!-- base -->
-    <!-- components -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- components -->
     <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/courses.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/popular.css">
+    <link rel="stylesheet" href="./css/table.css">
     <!-- custom style for this page only -->
 </head>
 
@@ -57,24 +60,185 @@
         </header>
 
         <section class="block course-progress">
-            <h2 class="title">COURSE IN PROGRESS</h2>
+            <h2 class="title">Course in progress</h2>
             <a class="link" href="#">View all</a>
-            <div class="content">content</div> 
+            <div class="content course-list">
+                <article class="course violet">
+                    <div class="details">
+                        <div class="date">Dev, 15, 2020</div>
+                        <img class="icon" src="./img/course-1.png" alt="Course app design icon">
+                    </div>
+                    <h3 class="title">App design</h3>
+                    <p class="learn">Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio! lorem</p>
+                    <div class="progress-bar">
+                        <div class="progress">
+                            <div class="bar" style="width: 50%;">
+                                <div class="value"></div>
+                            </div>
+                        </div>
+                        <div class="values">
+                            <div>Progress</div>
+                            <div>50%</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="course orange">
+                    <div class="details">
+                        <div class="date">Dev, 15, 2020</div>
+                        <img class="icon" src="./img/course-1.png" alt="Course app design icon">
+                    </div>
+                    <h3 class="title">App design</h3>
+                    <p class="learn">Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio!</p>
+                    <div class="progress-bar">
+                        <div class="progress">
+                            <div class="bar" style="width: 20%;">
+                                <div class="value"></div>
+                            </div>
+                        </div>
+                        <div class="values">
+                            <div>Progress</div>
+                            <div>20%</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="course teal">
+                    <div class="details">
+                        <div class="date">Dev, 15, 2020</div>
+                        <img class="icon" src="./img/course-1.png" alt="Course app design icon">
+                    </div>
+                    <h3 class="title">App design</h3>
+                    <p class="learn">Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, distinctio!</p>
+                    <div class="progress-bar">
+                        <div class="progress">
+                            <div class="bar" style="width: 90%;">
+                                <div class="value"></div>
+                            </div>
+                        </div>
+                        <div class="values">
+                            <div>Progress</div>
+                            <div>90%</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
-        
+
         <section class="block subscription">
-            <div class="content">CONTENT</div> 
+            <div class="content">
+                <img src="./img/pig.png" alt="Kiaule taupykle">
+                <p>You have 5 days left on your subscription</p>
+                <a href="#" class="yellow-submarine">Upgrade to Pro</a>
+            </div>
         </section>
-        
+
         <section class="block block-bg popular-categories">
-            <h2 class="title">POPULAR CATEGORIES</h2>
-            <div class="content">CONTENT</div>
+            <h2 class="title">Popular categories</h2>
+            <div class="content">
+                <table class="ContainerPopular">
+                    <tbody class="listCourse">
+                        <tr>
+                            <td>UI/UX Design <br> 18 Course</td>
+                            <td><img src="./img/pirmas.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Marketing <br>34 Course</td>
+                            <td><img src="./img/antras.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Development <br>126 Course </td>
+                            <td><img src="./img/trecias.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Business <br>213 Course</td>
+                            <td> <img src="./img/ketvirtas.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+      
+
         </section>
-        
-        <section style="background-color: #E6F5FA;" class="block block-bg top-mentor">
-            <h2 class="title">TOP MENTORS</h2>
+
+        <section style="background-color: #E6F5FA;" class="block block-bg top-mentors">
+            <h2 class="title">Top mentors</h2>
             <a class="link" href="#">View all</a>
-            <div class="content">CONTENT</div>  
+            <table class="content">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="./img/sam.png" alt="">Shine Smith
+                            </div>
+                        </td>
+                        <td>UI/UX designer</td>
+                        <td>18 Course</td>
+                        <td>1200 Follower</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope-o"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="./img/mikel.png" alt="">Mikel
+                            </div>
+                        </td>
+                        </td>
+                        <td>Marketer</td>
+                        <td>24 Course</td>
+                        <td>1900 Follower</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope-o"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="./img/fahid.png" alt="">Tohid golakar
+                            </div>
+                        </td>
+                        <td>Androied Developer</td>
+                        <td>64 Course</td>
+                        <td>1590 Follower</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope-o"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="./img/md.png" alt="">Md Sakib
+                            </div>
+                        </td>
+                        <td>Fontend Developer</td>
+                        <td>85 Course</td>
+                        <td>3400 Follower</td>
+                        <td>
+                            <button>Follow</button>
+                        </td>
+                        <td>
+                            <i class="fa fa-envelope-o"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
         </section>
     </main>
 </body>
